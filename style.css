@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 7, 2024, 9:46:09 AM
+    Author     : hoang
+*/
+
+:root {
+  --background-light: #f4f4f9;
+  --background-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+  --primary-color: #4a4e69;
+}
+
+body.light-mode {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, ul, li {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Dark Mode */
+.dark-mode nav {
+  background-color: var(--background-dark) !important;
+}
+
+.dark-mode .list-group-item, .dark-mode .form-control {
+  background-color: #333;
+  color: var(--text-dark);
+}
+
+.dark-mode footer {
+  background-color: #333;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-dark);
+}
